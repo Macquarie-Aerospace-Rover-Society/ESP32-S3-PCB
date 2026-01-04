@@ -18,8 +18,8 @@ jobs:
       - name: Install KiCad 9
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
-          sudo apt-get update
-          sudo apt-get install --yes kicad-cli
+          sudo apt update
+          sudo apt install --install-recommends kicad
 
       - name: Create imgs directory
         run: mkdir -p imgs

@@ -31,7 +31,7 @@ jobs:
             --side top \
             --quality high \
             --perspective \
-            hardware/your_board.kicad_pcb
+            ESP32-S3_Custom.kicad_pcb
 
       - name: Render 3D Bottom
         run: |
@@ -40,7 +40,7 @@ jobs:
             --side bottom \
             --quality high \
             --perspective \
-            hardware/your_board.kicad_pcb
+            ESP32-S3_Custom.kicad_pcb
 
       - name: Commit renders
         run: |

@@ -4,6 +4,14 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'ESP32-S3_Custom.kicad_pcb'
+
+  pull_request:
+    branches:
+      - master
+    paths:
+      - 'ESP32-S3_Custom.kicad_pcb'
 
 # Allow the job to push commits back to the repo
 permissions:
